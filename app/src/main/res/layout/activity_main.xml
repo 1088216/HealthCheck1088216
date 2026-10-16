@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:text="Height"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingEnd="16dp"/>
+        <EditText
+            android:id="@+id/et_height"
+            android:hint="height in cm"
+            android:inputType="numberDecimal"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:text="Weight"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/et_weight"
+            android:hint="weight in Kg"
+            android:inputType="numberDecimal"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:text="Sugar Level"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/et_sugar"
+            android:hint="level in mg/dL"
+            android:inputType="numberDecimal"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dp"
+        android:background="#283593"
+        android:layout_marginBottom="16dp"/>
+
+    <TableRow
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:text="" />
+        <TextView
+            android:text="Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:text="BMI"/>
+        <TextView
+            android:id="@+id/tv_bmi_val"
+            android:text="BMI Results"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:text="BMI Status"/>
+        <TextView
+            android:id="@+id/tv_bmi_status"
+            android:text="BMI Status"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:text="HA1C"/>
+        <TextView
+            android:id="@+id/tv_ha1c_val"
+            android:text="(sugar + 46.7) / 28.7"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:text="HA1C Status"/>
+        <TextView
+            android:id="@+id/tv_ha1c_status"
+            android:text="A1C Status"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dp"
+        android:background="#283593"
+        android:layout_marginBottom="16dp"/>
+
+    <TableRow
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:text="" />
+        <TextView
+            android:text="Recommendations"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:text="Weight"/>
+        <TextView
+            android:id="@+id/tv_rec_weight"
+            android:text="Loss / Gain"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Sugar"/>
+        <TextView
+            android:id="@+id/tv_rec_sugar"
+            android:text="Reduce / Increase"
+            android:gravity="center"/>
+    </TableRow>
+
+</TableLayout>

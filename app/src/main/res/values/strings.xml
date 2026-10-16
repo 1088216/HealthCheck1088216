@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Health Check</string>
+
+
+    <string name="height_label">Height</string>
+    <string name="height_hint">height in cm</string>
+    <string name="weight_label">Weight</string>
+    <string name="weight_hint">weight in Kg</string>
+    <string name="sugar_label">Sugar Level</string>
+    <string name="sugar_hint">level in mg/dL</string>
+
+    <!-- Buttons -->
+    <string name="btn_diagnose">Diagnose</string>
+    <string name="btn_exit">Exit</string>
+
+    <!-- Results Section -->
+    <string name="results_title">Results</string>
+    <string name="bmi_label">BMI</string>
+    <string name="bmi_val_default">BMI Results</string>
+    <string name="bmi_status_label">BMI Status</string>
+    <string name="bmi_status_default">BMI status</string>
+    <string name="ha1c_label">HA1C</string>
+    <string name="ha1c_val_default">(sugar + 46.7) / 28.7</string>
+    <string name="ha1c_status_label">HA1C Status</string>
+    <string name="ha1c_status_default">A1C Status</string>
+
+    <!-- Recommendations Section -->
+    <string name="recommendations_title">Recommendations</string>
+    <string name="rec_weight_default">Loss / Gain</string>
+    <string name="rec_sugar_default">Reduce / Increase</string>
+</resources>
